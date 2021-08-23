@@ -3057,8 +3057,8 @@ progress {
 }
 
 .col-form-label-lg {
-  padding-top: calc(0.5rem + 1px);
-  padding-bottom: calc(0.5rem + 1px);
+  padding-top: 8px;
+  padding-bottom: 8px;
   font-size: 1.25rem;
 }
 
@@ -3256,24 +3256,24 @@ progress {
 }
 
 .form-control-lg {
-  min-height: calc(1.5em + (1rem + 2px));
-  padding: 0.5rem 1rem;
+  min-height: calc(1.5em + 16px);
+  padding: 7px 15px;
   font-size: 1.25rem;
   border-radius: 0.3rem;
 }
 
 .form-control-lg::file-selector-button {
-  padding: 0.5rem 1rem;
-  margin: -0.5rem -1rem;
-  -webkit-margin-end: 1rem;
-          margin-inline-end: 1rem;
+  padding: 7px 15px;
+  margin: -7px -15px;
+  -webkit-margin-end: 15px;
+          margin-inline-end: 15px;
 }
 
 .form-control-lg::-webkit-file-upload-button {
-  padding: 0.5rem 1rem;
-  margin: -0.5rem -1rem;
-  -webkit-margin-end: 1rem;
-          margin-inline-end: 1rem;
+  padding: 7px 15px;
+  margin: -7px -15px;
+  -webkit-margin-end: 15px;
+          margin-inline-end: 15px;
 }
 
 textarea.form-control {
@@ -3285,7 +3285,7 @@ textarea.form-control-sm {
 }
 
 textarea.form-control-lg {
-  min-height: calc(1.5em + (1rem + 2px));
+  min-height: calc(1.5em + 16px);
 }
 
 .form-control-color {
@@ -3371,9 +3371,9 @@ textarea.form-control-lg {
 }
 
 .form-select-lg {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  padding-left: 1rem;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 15px;
   font-size: 1.25rem;
 }
 
@@ -3785,7 +3785,7 @@ textarea.form-control-lg {
 .input-group-lg > .form-select,
 .input-group-lg > .input-group-text,
 .input-group-lg > .btn {
-  padding: 0.5rem 1rem;
+  padding: 7px 15px;
   font-size: 1.25rem;
   border-radius: 0.3rem;
 }
@@ -4759,7 +4759,7 @@ fieldset:disabled .btn {
 }
 
 .btn-lg, .btn-group-lg > .btn {
-  padding: 0.5rem 1rem;
+  padding: 7px 15px;
   font-size: 1.25rem;
   border-radius: 0.3rem;
 }
@@ -5225,8 +5225,8 @@ fieldset:disabled .btn {
 }
 
 .btn-lg + .dropdown-toggle-split, .btn-group-lg > .btn + .dropdown-toggle-split {
-  padding-right: 0.75rem;
-  padding-left: 0.75rem;
+  padding-right: 11.25px;
+  padding-left: 11.25px;
 }
 
 .btn-group-vertical {
@@ -18258,7 +18258,55 @@ fieldset:disabled .btn {
 }
 
 .logo-bg {
-  background: url(/dist/assets/images/logo/DOYOGA-logo.png);
+  background-image: url(../../../assets/images/logo/DOYOGA-logo.png);
+}
+
+.logo-size {
+  width: 96px;
+  height: 31px;
+}
+
+.background-image-setting {
+  background-size: cover;
+  background-position: center;
+}
+
+.tranlate-start-50 {
+  -webkit-transform: translate(-50%, 0%);
+      -ms-transform: translate(-50%, 0%);
+          transform: translate(-50%, 0%);
+}
+
+body {
+  font-family: source-han-sans-traditional, sans-serif;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+ul {
+  margin-bottom: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.subscribe-input {
+  width: 273px;
+}
+
+@media (min-width: 992px) {
+  .subscribe-input {
+    width: 278px;
+  }
+}
+
+@media (min-width: 768px) {
+  .subscribe-input {
+    width: 258px;
+  }
 }
 
 .index__h1 {
