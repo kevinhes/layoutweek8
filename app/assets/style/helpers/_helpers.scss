@@ -5,7 +5,19 @@
 }
 
 .logo-bg{
-    background: url(/dist/assets/images/logo/DOYOGA-logo.png);
-    // width: 96px;
-    // height: 31px;
+    background-image: url(../../../assets/images/logo/DOYOGA-logo.png);
+}
+
+.logo-size{
+    width: 96px;
+    height: 31px;
+}
+
+.background-image-setting{
+    background-size: cover;
+    background-position: center;
+}
+
+.tranlate-start-50{
+    transform: translate(-50%, 0%)
 }

@@ -1,0 +1,9 @@
+.subscribe-input{
+    width: 273px;
+    @include media-breakpoint-up(lg) {
+        width: 278px;
+    }
+    @include media-breakpoint-up(md) {
+        width: 258px;
+    }
+}
