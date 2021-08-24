@@ -1,0 +1,48 @@
+.index-banner{
+  background-image: url(https://github.com/kevinhes/layoutweek8/blob/main/app/assets/images/banner/banner.jpeg?raw=true);
+  height: 560px;
+  @include media-breakpoint-up(md) { 
+    height: 582px;
+  }
+}
+
+.slogan{
+  .card-img{
+    height: 420px;
+    @include media-breakpoint-up(md) { 
+      height: 252px;
+    }
+    @include media-breakpoint-up(lg) { 
+      height: 420px;
+    }
+  }
+}
+
+.teachers{
+  .teachers-event{
+    height: 628px;
+    border-radius: 16px;
+  }
+}
+
+// .teachers::before{
+//   @include media-breakpoint-up(lg) {
+//     position: absolute;
+//     content: "";
+//     width: 540px;
+//     height: 628px;
+//     background-image: url("https://github.com/kevinhes/layoutweek8/blob/main/app/assets/images/card/card8.jpeg?raw=true");
+//     border-radius: 16px;
+//     top: 50%;
+//     transform: translate(0%,-50%);
+//   }
+// }
+
+.teachers{
+  padding-top: 32px;
+  padding-bottom: 48px;
+  @include media-breakpoint-up(lg) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}

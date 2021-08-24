@@ -363,7 +363,7 @@ $container-max-widths: (
 // Set the number of columns and specify the width of the gutters.
 
 $grid-columns:                12 !default;
-$grid-gutter-width:           1.5rem !default;
+$grid-gutter-width:           1.875rem !default; //1.5rem
 $grid-row-columns:            6 !default;
 
 $gutters: $spacers !default;
@@ -461,6 +461,7 @@ $line-height-base:            1.5 !default;
 $line-height-sm:              1.25 !default;
 $line-height-lg:              2 !default;
 
+$h0-font-size:                $font-size-base * 3 !default;
 $h1-font-size:                $font-size-base * 2.75 !default;
 $h2-font-size:                $font-size-base * 2.5 !default;
 $h3-font-size:                $font-size-base * 2.25 !default;
@@ -477,6 +478,7 @@ $h11-font-size:               $font-size-base * 0.75 !default;
 
 // scss-docs-start font-sizes
 $font-sizes: (
+  0: $h0-font-size,      //48px
   1: $h1-font-size,      //44px
   2: $h2-font-size,      //40px
   3: $h3-font-size,      //36px
