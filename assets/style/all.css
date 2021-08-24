@@ -553,8 +553,8 @@ progress {
 .container-xl,
 .container-xxl {
   width: 100%;
-  padding-right: var(--bs-gutter-x, 0.75rem);
-  padding-left: var(--bs-gutter-x, 0.75rem);
+  padding-right: var(--bs-gutter-x, 0.9375rem);
+  padding-left: var(--bs-gutter-x, 0.9375rem);
   margin-right: auto;
   margin-left: auto;
 }
@@ -590,7 +590,7 @@ progress {
 }
 
 .row {
-  --bs-gutter-x: 1.5rem;
+  --bs-gutter-x: 1.875rem;
   --bs-gutter-y: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -5951,7 +5951,7 @@ fieldset:disabled .btn {
 }
 
 .card-group > .card {
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.9375rem;
 }
 
 @media (min-width: 576px) {
@@ -6971,7 +6971,7 @@ fieldset:disabled .btn {
 }
 
 .toast-container > :not(:last-child) {
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.9375rem;
 }
 
 .toast-header {
@@ -10438,6 +10438,10 @@ fieldset:disabled .btn {
   font-family: var(--bs-font-monospace) !important;
 }
 
+.fs-0 {
+  font-size: 3rem !important;
+}
+
 .fs-1 {
   font-size: 2.75rem !important;
 }
@@ -12218,6 +12222,9 @@ fieldset:disabled .btn {
   .ps-sm-23 {
     padding-left: 6.25rem !important;
   }
+  .fs-sm-0 {
+    font-size: 3rem !important;
+  }
   .fs-sm-1 {
     font-size: 2.75rem !important;
   }
@@ -13705,6 +13712,9 @@ fieldset:disabled .btn {
   }
   .ps-md-23 {
     padding-left: 6.25rem !important;
+  }
+  .fs-md-0 {
+    font-size: 3rem !important;
   }
   .fs-md-1 {
     font-size: 2.75rem !important;
@@ -15194,6 +15204,9 @@ fieldset:disabled .btn {
   .ps-lg-23 {
     padding-left: 6.25rem !important;
   }
+  .fs-lg-0 {
+    font-size: 3rem !important;
+  }
   .fs-lg-1 {
     font-size: 2.75rem !important;
   }
@@ -16681,6 +16694,9 @@ fieldset:disabled .btn {
   }
   .ps-xl-23 {
     padding-left: 6.25rem !important;
+  }
+  .fs-xl-0 {
+    font-size: 3rem !important;
   }
   .fs-xl-1 {
     font-size: 2.75rem !important;
@@ -18170,6 +18186,9 @@ fieldset:disabled .btn {
   .ps-xxl-23 {
     padding-left: 6.25rem !important;
   }
+  .fs-xxl-0 {
+    font-size: 3rem !important;
+  }
   .fs-xxl-1 {
     font-size: 2.75rem !important;
   }
@@ -18258,7 +18277,7 @@ fieldset:disabled .btn {
 }
 
 .logo-bg {
-  background: url("../../../assets/images/logo/DOYOGA-logo.png");
+  background: url("../images/logo/DOYOGA-logo.png");
 }
 
 .logo-size {
@@ -18277,6 +18296,15 @@ fieldset:disabled .btn {
           transform: translate(-50%, 0%);
 }
 
+.border-round-16 {
+  border-radius: 16px;
+}
+
+.img-fit-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 body {
   font-family: source-han-sans-traditional, sans-serif;
 }
@@ -18291,6 +18319,22 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+.btn-outline-primary:hover {
+  color: white;
+}
+
+.btn-secondary:hover {
+  background: #907A7B;
+}
+
+.btn-info {
+  color: #907A7B;
+}
+
+.btn-info:hover {
+  color: white;
 }
 
 .subscribe-input {
@@ -18311,7 +18355,46 @@ a {
 
 .index-banner {
   background-image: url(https://github.com/kevinhes/layoutweek8/blob/main/app/assets/images/banner/banner.jpeg?raw=true);
-  height: 582px;
+  height: 560px;
+}
+
+@media (min-width: 768px) {
+  .index-banner {
+    height: 582px;
+  }
+}
+
+.slogan .card-img {
+  height: 420px;
+}
+
+@media (min-width: 768px) {
+  .slogan .card-img {
+    height: 252px;
+  }
+}
+
+@media (min-width: 992px) {
+  .slogan .card-img {
+    height: 420px;
+  }
+}
+
+.teachers .teachers-event {
+  height: 628px;
+  border-radius: 16px;
+}
+
+.teachers {
+  padding-top: 32px;
+  padding-bottom: 48px;
+}
+
+@media (min-width: 992px) {
+  .teachers {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 
 /*# sourceMappingURL=all.css.map */
