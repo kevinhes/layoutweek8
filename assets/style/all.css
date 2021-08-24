@@ -18258,7 +18258,7 @@ fieldset:disabled .btn {
 }
 
 .logo-bg {
-  background-image: url(../../../assets/images/logo/DOYOGA-logo.png);
+  background: url("../../../assets/images/logo/DOYOGA-logo.png");
 }
 
 .logo-size {
@@ -18268,7 +18268,7 @@ fieldset:disabled .btn {
 
 .background-image-setting {
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
 }
 
 .tranlate-start-50 {
@@ -18309,10 +18309,9 @@ a {
   }
 }
 
-.index__h1 {
-  color: #00cc99;
-  font-size: 20px;
-  font-weight: 400;
+.index-banner {
+  background-image: url(https://github.com/kevinhes/layoutweek8/blob/main/app/assets/images/banner/banner.jpeg?raw=true);
+  height: 582px;
 }
 
 /*# sourceMappingURL=all.css.map */
