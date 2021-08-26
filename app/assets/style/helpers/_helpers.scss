@@ -26,6 +26,10 @@
     border-radius: 16px;
 }
 
+.border-round-top-16{
+    border-radius: 16px 16px 0 0;
+}
+
 .img-fit-cover{
     object-fit: cover;
 }

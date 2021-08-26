@@ -25,24 +25,91 @@
   }
 }
 
-// .teachers::before{
-//   @include media-breakpoint-up(lg) {
-//     position: absolute;
-//     content: "";
-//     width: 540px;
-//     height: 628px;
-//     background-image: url("https://github.com/kevinhes/layoutweek8/blob/main/app/assets/images/card/card8.jpeg?raw=true");
-//     border-radius: 16px;
-//     top: 50%;
-//     transform: translate(0%,-50%);
-//   }
-// }
-
 .teachers{
   padding-top: 32px;
   padding-bottom: 48px;
   @include media-breakpoint-up(lg) {
     padding-top: 94px;
     padding-bottom: 94px;
+  }
+}
+
+.teacher-mug{
+  @include media-breakpoint-down(md) {
+    width: 48px;
+    height: 48px;
+  }
+}
+
+.space-img-main{
+  height: 210px;
+  @include media-breakpoint-up(md) {
+    height: 266px;
+  }
+  @include media-breakpoint-up(lg) {
+    height: 444px;
+  }
+}
+
+.space-img-sub{
+  height: 210px;
+  @include media-breakpoint-up(md) {
+    height: 117px;
+  }
+  @include media-breakpoint-up(lg) {
+    height: 207px;
+  }
+}
+
+.swiper-container {
+  overflow: hidden;
+}
+
+.swiper-slide{
+  img{
+    width: 445px;
+    height: 445px;
+    object-fit: cover;
+  }
+}
+
+.course-img{
+  height: 165px;
+  @include media-breakpoint-up(md) {
+    height: 150px;
+  }
+}
+
+.plan{
+  .card-img-top{
+    height: 243px;
+    border-radius: 16px 16px 0 0;
+    @include media-breakpoint-up(md) {
+      height: 238px;
+      border-radius: 16px 0 0 16px;
+    }
+    @include media-breakpoint-up(lg) {
+      height: 243px;
+      border-radius: 16px 16px 0 0;
+    }
+  }
+}
+
+.rec-container {
+  overflow: hidden;
+}
+
+.rec-slide{
+  img{
+    width: 445px;
+    height: 445px;
+    object-fit: cover;
+  }
+}
+
+.swiper-slide{
+  .user-img{
+    width: 60px;
+    height: 60px;
   }
 }
