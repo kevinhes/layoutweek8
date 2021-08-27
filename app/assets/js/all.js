@@ -1,12 +1,16 @@
 $(function() {
   console.log('Hello Bootstrap5');
+  $('.lv-select').on("click", function(event) {
+    event.preventDefault();
+    $('.class-lv').slideDown(400);
+    $('.class-choice').toggle();
+  });
 });
 
 const swiper = new Swiper('.swiper-container', {
   // Optional parameters
   slidesPerView: 'auto',
   spaceBetween: 30,
-
 });
 
 const recSwiper = new Swiper('.rec-container', {
