@@ -2,6 +2,11 @@
 
 $(function () {
   console.log('Hello Bootstrap5');
+  $('.lv-select').on("click", function (event) {
+    event.preventDefault();
+    $('.class-lv').slideDown(400);
+    $('.class-choice').toggle();
+  });
 });
 var swiper = new Swiper('.swiper-container', {
   // Optional parameters
