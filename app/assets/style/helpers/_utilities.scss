@@ -590,8 +590,17 @@ $utilities: map-merge(
         visible: visible,
         invisible: hidden,
       )
-    )
+    ),
     // scss-docs-end utils-visibility
+    "opacity": (
+      property: opacity,
+      class: opacity,
+      values: (
+        0: 0,
+        5: .5,
+        10: 1
+      )
+    )
   ),
   $utilities
 );

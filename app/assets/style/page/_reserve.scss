@@ -1,8 +1,53 @@
 .class-lv{
     display: none;
-    height: 200px;
 }
 
 .class-choice{
     display: none;
+}
+
+.reserve-btn{
+    display: none;
+}
+
+.selected-first::after{
+    // display: none;
+    content: "";
+    position: absolute;
+    bottom: -32px;
+    left: 50%;
+    transform:translate(-50% , 100%);
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 8px 8px 0 8px;
+    border-color: $primary transparent transparent transparent;
+}
+
+.selected-short::after{
+    // display: none;
+    content: "";
+    position: absolute;
+    bottom: -32px;
+    left: 50%;
+    transform:translate(-50% , 100%);
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 8px 8px 0 8px;
+    border-color: $primary transparent transparent transparent;
+}
+
+.selected-long::after{
+    // display: none;
+    content: "";
+    position: absolute;
+    bottom: -32px;
+    left: 50%;
+    transform:translate(-50% , 100%);
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 8px 8px 0 8px;
+    border-color: $primary transparent transparent transparent;
 }
