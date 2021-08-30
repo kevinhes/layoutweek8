@@ -55,6 +55,14 @@ $(function() {
   });
 });
 
+const elem = document.querySelector('input[name="datepicker"]');
+const datepicker = new Datepicker(elem, {
+  nextArrow: '>',
+  prevArrow: '<',
+  buttonClass: 'btn primary',
+}); 
+
+
 const swiper = new Swiper('.swiper-container', {
   // Optional parameters
   slidesPerView: 'auto',

@@ -33,3 +33,10 @@
 .img-fit-cover{
     object-fit: cover;
 }
+
+.datepicker-cell.selected, .datepicker-cell.selected:hover {
+    background-color: $primary;
+  }
+  .datepicker-picker{
+    color: $primary;
+  }
