@@ -8614,6 +8614,10 @@ fieldset:disabled .btn {
   width: 25% !important;
 }
 
+.w-33 {
+  width: 33.3333% !important;
+}
+
 .w-50 {
   width: 50% !important;
 }
@@ -10955,6 +10959,9 @@ fieldset:disabled .btn {
   .w-sm-25 {
     width: 25% !important;
   }
+  .w-sm-33 {
+    width: 33.3333% !important;
+  }
   .w-sm-50 {
     width: 50% !important;
   }
@@ -12512,6 +12519,9 @@ fieldset:disabled .btn {
   }
   .w-md-25 {
     width: 25% !important;
+  }
+  .w-md-33 {
+    width: 33.3333% !important;
   }
   .w-md-50 {
     width: 50% !important;
@@ -14071,6 +14081,9 @@ fieldset:disabled .btn {
   .w-lg-25 {
     width: 25% !important;
   }
+  .w-lg-33 {
+    width: 33.3333% !important;
+  }
   .w-lg-50 {
     width: 50% !important;
   }
@@ -15629,6 +15642,9 @@ fieldset:disabled .btn {
   .w-xl-25 {
     width: 25% !important;
   }
+  .w-xl-33 {
+    width: 33.3333% !important;
+  }
   .w-xl-50 {
     width: 50% !important;
   }
@@ -17186,6 +17202,9 @@ fieldset:disabled .btn {
   }
   .w-xxl-25 {
     width: 25% !important;
+  }
+  .w-xxl-33 {
+    width: 33.3333% !important;
   }
   .w-xxl-50 {
     width: 50% !important;
@@ -18772,6 +18791,14 @@ fieldset:disabled .btn {
 .img-fit-cover {
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.datepicker-cell.selected, .datepicker-cell.selected:hover {
+  background-color: #907A7B;
+}
+
+.datepicker-picker {
+  color: #907A7B;
 }
 
 body {
