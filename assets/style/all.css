@@ -10896,6 +10896,18 @@ fieldset:disabled .btn {
   visibility: hidden !important;
 }
 
+.opacity-0 {
+  opacity: 0 !important;
+}
+
+.opacity-5 {
+  opacity: 0.5 !important;
+}
+
+.opacity-10 {
+  opacity: 1 !important;
+}
+
 @media (min-width: 576px) {
   .float-sm-start {
     float: left !important;
@@ -18786,6 +18798,10 @@ a {
   color: white;
 }
 
+.btn-primary:hover {
+  color: white;
+}
+
 .btn-secondary:hover {
   background: #907A7B;
 }
@@ -18955,11 +18971,59 @@ a {
 
 .class-lv {
   display: none;
-  height: 200px;
 }
 
 .class-choice {
   display: none;
+}
+
+.reserve-btn {
+  display: none;
+}
+
+.selected-first::after {
+  content: "";
+  position: absolute;
+  bottom: -32px;
+  left: 50%;
+  -webkit-transform: translate(-50%, 100%);
+      -ms-transform: translate(-50%, 100%);
+          transform: translate(-50%, 100%);
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 8px 8px 0 8px;
+  border-color: #907A7B transparent transparent transparent;
+}
+
+.selected-short::after {
+  content: "";
+  position: absolute;
+  bottom: -32px;
+  left: 50%;
+  -webkit-transform: translate(-50%, 100%);
+      -ms-transform: translate(-50%, 100%);
+          transform: translate(-50%, 100%);
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 8px 8px 0 8px;
+  border-color: #907A7B transparent transparent transparent;
+}
+
+.selected-long::after {
+  content: "";
+  position: absolute;
+  bottom: -32px;
+  left: 50%;
+  -webkit-transform: translate(-50%, 100%);
+      -ms-transform: translate(-50%, 100%);
+          transform: translate(-50%, 100%);
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 8px 8px 0 8px;
+  border-color: #907A7B transparent transparent transparent;
 }
 
 /*# sourceMappingURL=all.css.map */
