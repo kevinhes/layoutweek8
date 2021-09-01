@@ -1,0 +1,26 @@
+.course-img-main{
+    height: 218px;
+    @include media-breakpoint-up(md) {
+        height: 341px;
+    }
+}
+
+.course-img{
+    height: 196px;
+}
+
+.teachers-swiper{
+    overflow: hidden;
+}
+
+.teacher-info{
+    height: 418px;
+}
+
+.swiper-slide{
+    .teacher-sticker{
+        height: 96px;
+        width: 96px;
+        z-index: 2;
+    }
+}

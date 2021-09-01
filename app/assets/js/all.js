@@ -2,9 +2,9 @@ $(function() {
   console.log('Hello Bootstrap5');
   $('.class-option-first .class-select').on("click", function(event) {
     event.preventDefault();
-    $('.class-lv').slideDown( "slow" );
-    $('.class-choice').slideDown( "slow" );
-    $('.reserve-btn').slideDown( "slow" );
+    $('.class-lv').show( "slow" );
+    $('.class-choice').show( "slow" );
+    $('.reserve-btn').show( "slow" );
     $('.class-option-short').removeClass( "selected-short" );
     $('.class-option-long').removeClass( "selected-long" );
     $('.class-option-first').addClass( "selected-first" );
@@ -15,9 +15,9 @@ $(function() {
 
   $('.class-option-short .class-select').on("click", function(event) {
     event.preventDefault();
-    $('.class-lv').slideDown( "slow" );
-    $('.class-choice').slideDown( "slow" );
-    $('.reserve-btn').slideDown( "slow" );
+    $('.class-lv').show( "slow" );
+    $('.class-choice').show( "slow" );
+    $('.reserve-btn').show( "slow" );
     $('.class-option-first').removeClass( "selected-first" );
     $('.class-option-long').removeClass( "selected-long" );
     $('.class-option-short').addClass( "selected-short" );
@@ -28,9 +28,9 @@ $(function() {
 
   $('.class-option-long .class-select').on("click", function(event) {
     event.preventDefault();
-    $('.class-lv').slideDown( "slow" );
-    $('.class-choice').slideDown( "slow" );
-    $('.reserve-btn').slideDown( "slow" );
+    $('.class-lv').show( "slow" );
+    $('.class-choice').show( "slow" );
+    $('.reserve-btn').show( "slow" );
     $('.class-option-first').removeClass( "selected-first" );
     $('.class-option-short').removeClass( "selected-short" );
     $('.class-option-long').addClass( "selected-long" );
@@ -42,9 +42,9 @@ $(function() {
   $(document).on( "click", function(event) {
     var _con = $('.class-select');
     if (!_con.is(event.target)) {
-      $('.class-lv').slideUp( "slow" );
-      $('.class-choice').slideUp( "slow" );
-      $('.reserve-btn').slideUp( "slow" );
+      $('.class-lv').hide( "slow" );
+      $('.class-choice').hide( "slow" );
+      $('.reserve-btn').hide( "slow" );
       $('.class-option-first').removeClass( "selected-first" );
       $('.class-option-short').removeClass( "selected-short" );
       $('.class-option-long').removeClass( "selected-long" );
@@ -53,15 +53,7 @@ $(function() {
       $('.class-option-long').removeClass( "border-4" );
     }
   });
-});
-
-const elem = document.querySelector('input[name="datepicker"]');
-const datepicker = new Datepicker(elem, {
-  nextArrow: '>',
-  prevArrow: '<',
-  buttonClass: 'btn primary',
-}); 
-
+})
 
 const swiper = new Swiper('.swiper-container', {
   // Optional parameters
@@ -129,3 +121,35 @@ const classSwiper = new Swiper('.class-list', {
     }
   }
 });
+
+const teachersSwiper = new Swiper('.teachers-swiper', {
+  // Optional parameters
+  slidesPerView: '1',
+  spaceBetween: 24,
+  grid: {
+    rows: 4,
+  },
+  breakpoints: {
+    992: {
+      slidesPerView: '3',
+      spaceBetween: 30,
+      grid: {
+        rows: 1,
+      },
+    },
+    768: {
+      slidesPerView: '2',
+      spaceBetween: 30,
+      grid: {
+        rows: 1,
+      },
+    }
+  }
+});
+
+let elem = document.querySelector('input[name=datepicker]');
+let datepicker = new Datepicker(elem, {
+  nextArrow: '>',
+  prevArrow: '<',
+  buttonClass: 'btn primary',
+}); 
