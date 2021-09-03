@@ -19262,6 +19262,10 @@ a {
   background: #907A7B;
 }
 
+.btn-secondary {
+  color: white;
+}
+
 .btn-info {
   color: #907A7B;
 }
@@ -19508,6 +19512,127 @@ a {
   height: 96px;
   width: 96px;
   z-index: 2;
+}
+
+.course-modal {
+  max-width: 345px;
+  max-height: 582px;
+}
+
+@media (min-width: 768px) {
+  .course-modal {
+    max-width: 690px;
+    max-height: 546px;
+  }
+}
+
+@media (min-width: 992px) {
+  .course-modal {
+    max-width: 960px;
+    max-height: 546px;
+  }
+}
+
+.course-modal img {
+  width: 165px;
+  height: 165px;
+}
+
+@media (min-width: 768px) {
+  .course-modal img {
+    width: 264px;
+    height: 418px;
+  }
+}
+
+@media (min-width: 992px) {
+  .course-modal img {
+    width: 418px;
+    height: 418px;
+  }
+}
+
+.course-modal .card-body {
+  width: 313px;
+}
+
+@media (min-width: 768px) {
+  .course-modal .card-body {
+    width: 350px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .curriculum-table {
+    width: 920px;
+  }
+}
+
+.surrounding-img-main {
+  height: 350px;
+}
+
+@media (min-width: 768px) {
+  .surrounding-img-main {
+    height: 216px;
+  }
+}
+
+@media (min-width: 992px) {
+  .surrounding-img-main {
+    height: 350px;
+  }
+}
+
+.surrounding-img {
+  height: 350px;
+}
+
+@media (min-width: 768px) {
+  .surrounding-img {
+    height: 210px;
+  }
+}
+
+@media (min-width: 992px) {
+  .surrounding-img {
+    height: 350px;
+  }
+}
+
+.course-rec .swiper-slide {
+  width: 255px;
+}
+
+@media (min-width: 768px) {
+  .course-rec .swiper-slide {
+    width: 210px;
+  }
+}
+
+@media (min-width: 992px) {
+  .course-rec .swiper-slide {
+    width: 255px;
+  }
+}
+
+.course-rec img {
+  width: 255px;
+  height: 196px;
+}
+
+@media (min-width: 768px) {
+  .course-rec img {
+    width: 210px;
+    height: 161px;
+  }
+}
+
+@media (min-width: 992px) {
+  .course-rec img {
+    width: 255px;
+    height: 196px;
+  }
 }
 
 /*# sourceMappingURL=all.css.map */

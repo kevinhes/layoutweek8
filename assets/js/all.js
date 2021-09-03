@@ -108,7 +108,7 @@ var classSwiper = new Swiper('.class-list', {
         rows: 1
       }
     },
-    767: {
+    768: {
       slidesPerView: '2',
       spaceBetween: 30,
       grid: {
@@ -140,6 +140,11 @@ var teachersSwiper = new Swiper('.teachers-swiper', {
       }
     }
   }
+});
+var courseRec = new Swiper('.course-rec', {
+  // Optional parameters
+  slidesPerView: 'auto',
+  spaceBetween: 30
 });
 var elem = document.querySelector('input[name=datepicker]');
 var datepicker = new Datepicker(elem, {
