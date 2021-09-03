@@ -1,0 +1,5 @@
+.curriculum-table{
+    @include media-breakpoint-down(lg) {
+        width: 920px;
+    }
+}

@@ -24,3 +24,34 @@
         z-index: 2;
     }
 }
+
+.course-modal{
+    max-width: 345px;
+    max-height: 582px;
+    @include media-breakpoint-up(md) {
+        max-width: 690px;
+        max-height: 546px;
+    }
+    @include media-breakpoint-up(lg) {
+        max-width: 960px;
+        max-height: 546px;
+    }
+    img{
+        width: 165px;
+        height: 165px;
+        @include media-breakpoint-up(md) {
+            width: 264px;
+            height: 418px;
+        }
+        @include media-breakpoint-up(lg) {
+            width: 418px;
+            height: 418px;
+        }
+    }
+    .card-body{
+        width: 313px;
+        @include media-breakpoint-up(md) {
+            width: 350px;
+        }
+    }
+}

@@ -1,0 +1,43 @@
+.surrounding-img-main{
+    height: 350px;
+    @include media-breakpoint-up(md){
+        height: 216px;
+    }
+    @include media-breakpoint-up(lg){
+        height: 350px;
+    }
+}
+
+.surrounding-img{
+    height: 350px;
+    @include media-breakpoint-up(md) {
+        height: 210px;
+    }
+    @include media-breakpoint-up(lg) {
+        height: 350px;
+    }
+}
+
+.course-rec{
+    .swiper-slide{
+        width: 255px;
+        @include media-breakpoint-up(md) {
+            width: 210px;
+        }
+        @include media-breakpoint-up(lg) {
+            width: 255px;
+        }
+    }
+    img{
+        width: 255px;
+        height: 196px;
+        @include media-breakpoint-up(md) {
+            width: 210px;
+            height: 161px;
+        }
+        @include media-breakpoint-up(lg) {
+            width: 255px;
+            height: 196px;
+        }
+    }
+}

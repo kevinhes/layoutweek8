@@ -1,0 +1,9 @@
+.location-map{
+    height: 195px;
+    @include media-breakpoint-up(md){
+        height: 336px;
+    }
+    @include media-breakpoint-up(lg){
+        height: 360px;
+    }
+}
