@@ -19258,12 +19258,12 @@ a {
   color: white;
 }
 
-.btn-secondary:hover {
-  background: #907A7B;
-}
-
 .btn-secondary {
   color: white;
+}
+
+.btn-secondary:hover {
+  background: #907A7B;
 }
 
 .btn-info {
